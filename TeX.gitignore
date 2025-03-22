@@ -26,7 +26,9 @@
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
+*.bbl-SAVE-ERROR
 *.bcf
+*.bcf-SAVE-ERROR
 *.blg
 *-blx.aux
 *-blx.bib
@@ -39,6 +41,8 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
+*.rubbercache
+rubber.cache
 
 ## Build tool directories for auxiliary files
 # latexrun
@@ -137,6 +141,9 @@ acs-*.bib
 *.lg
 *.trc
 *.xref
+
+# hypdoc
+*.hd
 
 # hyperref
 *.brf
